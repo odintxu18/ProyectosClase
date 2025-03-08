@@ -1,0 +1,6 @@
+
+1;Marta;78;Ulceras;
+2;Quique;23;Mono;
+3;Lucas;12;Muelas;
+4;Eloisa;8;Ictus;
+5;Louis;567;Dolor de cabeza;

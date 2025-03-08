@@ -1,0 +1,26 @@
+<Hospital>
+  <paciente>
+    <id>2</id>
+    <nombre>Quique</nombre>
+    <sala>23</sala>
+    <enfermedad>Mono</enfermedad>
+  </paciente>
+  <paciente>
+    <id>3</id>
+    <nombre>Lucas</nombre>
+    <sala>12</sala>
+    <enfermedad>Muelas</enfermedad>
+  </paciente>
+  <paciente>
+    <id>4</id>
+    <nombre>Eloisa</nombre>
+    <sala>8</sala>
+    <enfermedad>Ictus</enfermedad>
+  </paciente>
+  <paciente>
+    <id>5</id>
+    <nombre>Louis</nombre>
+    <sala>567</sala>
+    <enfermedad>Dolor de cabeza</enfermedad>
+  </paciente>
+</Hospital>
