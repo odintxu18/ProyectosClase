@@ -1,0 +1,57 @@
+div {
+   padding: 3%;
+}
+body {
+    background-color: antiquewhite;
+}
+#DiffColores{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-between;
+
+}
+#DiffColores #azul{
+    width: 40%;
+}
+#DiffColores #blanco{
+    width: 40%;
+}
+#DiffColores #negro{
+    width: 40%;
+}
+#DiffColores #rojo{
+    width: 40%;
+}
+#DiffColores #verde{
+    width: 40%;
+}
+#carticas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-between;
+}
+#carticas #criatura{
+    width: 20%;
+}
+ #carticas #Encantamiento {
+    width: 20%;
+ }
+ #carticas #instantaneo {
+    width: 20%;
+ }
+ #carticas #Tierra {
+    width: 20%;
+ }
+ #carticas #Artefacto {
+    width: 20%;
+ }
+ #carticas #Planeswalker {
+    width: 20%;
+ }
+ #carticas #Conjuro{
+    width: 20%;
+ }

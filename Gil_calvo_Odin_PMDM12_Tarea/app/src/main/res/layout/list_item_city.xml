@@ -1,0 +1,59 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal"
+android:padding="16dp"
+android:gravity="center_vertical">
+
+<ImageView
+    android:id="@+id/cityImageView"
+    android:layout_width="80dp"
+    android:layout_height="80dp"
+    android:scaleType="centerCrop"
+    android:src="@drawable/ic_launcher_background"
+    android:layout_marginEnd="16dp"/>
+
+<LinearLayout
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/cityNameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="Nombre de la Ciudad" />
+
+    <TextView
+        android:id="@+id/cityDetailsTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:text="País, Población" />
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical">
+
+    <ImageView
+        android:id="@+id/expandImageView"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:src="@drawable/ampliar"
+        android:layout_marginEnd="8dp"/>
+
+    <ImageView
+        android:id="@+id/locationImageView"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:src="@drawable/mapa"/>
+</LinearLayout>
+
+</LinearLayout>

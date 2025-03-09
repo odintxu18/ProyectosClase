@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Trabajo07_Odin_Gil_calvo" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Trabajo07_Odin_Gil_calvo" parent="Base.Theme.Trabajo07_Odin_Gil_calvo" />
+</resources>

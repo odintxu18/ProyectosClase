@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <EditText
+        android:id="@+id/etNum1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese operando 1"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/etNum2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese operando 2"
+        android:inputType="numberDecimal"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rbSumar"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="Sumar" />
+
+        <RadioButton
+            android:id="@+id/rbRestar"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="Restar" />
+
+        <RadioButton
+            android:id="@+id/rbMultiplicar"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="Multiplicar" />
+
+        <RadioButton
+            android:id="@+id/rbDividir"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="Dividir" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnOperar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OPERAR"/>
+
+    <TextView
+        android:id="@+id/tvResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Resultado"
+        android:textSize="20sp"
+        android:textColor="#F44336"/>
+</LinearLayout>

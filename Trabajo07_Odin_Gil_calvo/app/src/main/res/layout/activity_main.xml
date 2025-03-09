@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/scoreTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Puntuación: 0"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adivine un número entre 1 y 20"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/numberInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Introduzca número"
+        android:inputType="number"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/checkButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="COMPROBAR" />
+
+</LinearLayout>
